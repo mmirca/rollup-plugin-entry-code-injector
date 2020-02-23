@@ -1,0 +1,22 @@
+{
+  "name": "rollup-plugin-entry-code-injector",
+  "version": "0.0.1",
+  "description": "A simple rollup plugin that can inject code in the entry files. Can be used for adding polyfills to the bundle in a legacy build.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmirca/rollup-plugin-entry-code-injector.git"
+  },
+  "keywords": [
+    "rollup-plugin"
+  ],
+  "author": "mmirca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmirca/rollup-plugin-entry-code-injector/issues"
+  },
+  "homepage": "https://github.com/mmirca/rollup-plugin-entry-code-injector#readme"
+}

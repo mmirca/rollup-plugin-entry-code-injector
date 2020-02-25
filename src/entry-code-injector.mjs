@@ -24,12 +24,13 @@ function entryCodeInjector (options) {
     name: 'entry-code-injector',
     transform(code, module) {
       if (this.getModuleInfo(module).isEntry) {
-        const { transformer } = pluginConfig;
-        return `
-          ${String(pluginConfig.prepend)}
-          ${transformer instanceof Function ? transformer(code) : code}
-          ${String(pluginConfig.append)}
-        `;
+        const { transformer, prepend, append } = pluginConfig;
+        let processedCode = '';
+        const isFunction = transformer instanceof Function;
+        processedCode = isFunction ? transformer(code) : code;
+        processedCode = prepend ? String(prepend) + processedCode : processedCode;
+        processedCode = append ? processedCode + String(append) : processedCode;
+        return processedCode;
       }
     }
   }

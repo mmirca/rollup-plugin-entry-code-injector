@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/rollup-plugin-entry-code-injector.svg)](https://www.npmjs.com/package/rollup-plugin-entry-code-injector)
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 # rollup-plugin-entry-code-injector
@@ -127,6 +128,4 @@ export default {
 
 ## Meta
 
-[CONTRIBUTING](/.github/CONTRIBUTING.md)
-
-[LICENSE (MIT)](/LICENSE)
+[LICENSE (MIT)](https://mit-license.org/)

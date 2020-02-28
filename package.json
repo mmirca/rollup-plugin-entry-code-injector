@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-entry-code-injector",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple rollup plugin that can inject code in the entry files. Can be used for adding polyfills to the bundle in a legacy build.",
   "main": "commonjs/index.js",
   "jsnext:main": "index.mjs",
